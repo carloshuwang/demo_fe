@@ -8,6 +8,6 @@ fi
 git tag $VER
 git push -u origin ${VER}
 
-docker build -t crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo_fe:$VER .
-docker push crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo_fe:$VER
-echo crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo_fe:$VER
+docker build -t crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo-fe:$VER .
+docker push crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo-fe:$VER
+echo crpi-iksw7yoju3x6kkgi.cn-guangzhou.personal.cr.aliyuncs.com/carlos_aliyun01/demo-fe:$VER
